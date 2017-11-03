@@ -2,14 +2,13 @@
 
 - link:
     ~/.dotfiles: ''
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore: git/gitignore
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmux: tmux/
     ~/.vim: vim/
     ~/.vimrc: vim/vimrc
-    ~/.gitconfig: git/gitconfig
-    ~/.gitignore: git/gitignore
     ~/.zshrc: zsh/zshrc
-    ~/.screenrc: screen/screenrc
     ~/.zprofile: zprofile
     ~/.zprofile.d: zprofile.d
 
