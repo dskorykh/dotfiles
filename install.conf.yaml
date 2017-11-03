@@ -9,6 +9,7 @@
     ~/.vim: vim/
     ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
+    ~/.oh-my-zsh/themes/egor.zsh-theme: zsh/egor.zsh-theme
     ~/.zprofile: zprofile
     ~/.zprofile.d: zprofile.d
 
