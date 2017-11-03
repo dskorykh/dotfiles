@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # install oh-my-zsh
-git clone https://github.com/mattstauffer/ohmyzsh-dotfiles.git ~/.oh-my-zsh
+cd; curl -#L https://github.com/mattstauffer/ohmyzsh-dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
 
 set -e
 
