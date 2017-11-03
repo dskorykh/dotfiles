@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # install oh-my-zsh
-git clone https://github.com/mattstauffer/ohmyzsh-dotfiles.git
+git clone https://github.com/mattstauffer/ohmyzsh-dotfiles.git ~/.oh-my-zsh
 
 set -e
 
