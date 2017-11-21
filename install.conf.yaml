@@ -9,8 +9,8 @@
     ~/.vim: vim/
     ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
-    $ZSH_CUSTOM/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
-    $ZSH_CUSTOM/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
     ~/.oh-my-zsh/themes/egor.zsh-theme: zsh/egor.zsh-theme
     ~/.zprofile: zprofile
     ~/.zprofile.d: zprofile.d
