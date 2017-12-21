@@ -1,7 +1,7 @@
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
-nmap <C-h> <C-w>l
+nmap <C-h> <C-w>h
 
 filetype off
 set nocompatible
@@ -66,5 +66,6 @@ filetype indent on
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set laststatus=2
 
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
+autocmd vimenter * nmap <C-h> <C-w>h
 map <C-n> :NERDTreeToggle<CR>
