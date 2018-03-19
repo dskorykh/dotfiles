@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/egor/projects/RTKLIB-private'
+let g:netrw_dirhist_2='/home/egor/projects/RTKLIB-private/doc'
+let g:netrw_dirhist_3='/home/egor/projects/RTKLIB-private'
+let g:netrw_dirhist_4='/home/egor/projects/RTKLIB-private/app'
+let g:netrw_dirhist_5='/home/egor/projects/RTKLIB-private/app/rtkd'
