@@ -57,6 +57,7 @@ plugins=(git vi-mode shrink-path python sudo redis-cli tmux pip github gnu-utils
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+unsetopt share_history
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
