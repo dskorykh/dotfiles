@@ -15,3 +15,5 @@ export GPG_TTY=`tty`
 for file in "$HOME"/.zprofile.d/*; do
       source "$file"
 done
+
+export PATH="$HOME/.cargo/bin:$PATH"
