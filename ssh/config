@@ -1,0 +1,18 @@
+Host 192.168.*.*
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+Host kk
+    HostName kernelcruncher.local
+    User egor
+Host sc
+    HostName softwarecrasher.local
+    User egor
+Host ib
+    HostName imagebutcher.local
+    User egor
+Host usb
+    HostName 192.168.2.15
+    User root
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+

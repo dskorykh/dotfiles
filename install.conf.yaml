@@ -14,6 +14,7 @@
     ~/.oh-my-zsh/themes/egor.zsh-theme: zsh/egor.zsh-theme
     ~/.zprofile: zprofile
     ~/.zprofile.d: zprofile.d
+    ~/.ssh/config: ssh/config
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
