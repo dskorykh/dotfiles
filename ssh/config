@@ -1,18 +1,36 @@
-Host 192.168.*.*
-    StrictHostKeyChecking no
-    UserKnownHostsFile=/dev/null
 Host kk
-    HostName kernelcruncher.local
-    User egor
-Host sc
-    HostName softwarecrasher.local
-    User egor
-Host ib
-    HostName imagebutcher.local
-    User egor
-Host usb
-    HostName 192.168.2.15
-    User root
-    StrictHostKeyChecking no
-    UserKnownHostsFile=/dev/null
+  HostName kernelcruncher.local
+  User dmitriy
+  IdentityFile ~/.ssh/id_rsa
 
+Host ib
+  HostName imagebutcher.local
+  User dmitriy
+  IdentityFile ~/.ssh/id_rsa
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+
+Host usb
+  HostName 192.168.2.15
+  User root
+  IdentityFile ~/.ssh/id_rsa
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+
+Host reach
+  HostName 192.168.2.15
+  User reach
+  IdentityFile ~/.ssh/id_rsa
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+
+Host 192.168.1.*
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+
+Host hotspot
+  HostName 192.168.42.1
+  User root
+  IdentityFile ~/.ssh/id_rsa
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
